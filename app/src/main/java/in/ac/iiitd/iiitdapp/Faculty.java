@@ -4,7 +4,6 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -25,8 +24,7 @@ public class Faculty extends Fragment {
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
     private RecyclerView recyclerView;
-    private RecyclerView.Adapter mAdapter;
-    private RecyclerView.LayoutManager mLayoutmanager;
+
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
@@ -70,10 +68,6 @@ public class Faculty extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_faculty, container, false);
         recyclerView = (RecyclerView) view.findViewById(R.id.recycler_view);
-        mLayoutmanager = new LinearLayoutManager(getActivity());
-        recyclerView.setLayoutManager(mLayoutmanager);
-        mAdapter = new FacultyAdapter();
-        recyclerView.setAdapter(mAdapter);
         return view;
     }
 
