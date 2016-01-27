@@ -18,7 +18,7 @@
             android:layout_height="100dp"
             android:padding="8dp"
             fresco:actualImageScaleType="fitCenter"
-            fresco:placeholderImage="@mipmap/puspendra"/>
+            fresco:placeholderImage="@drawable/images"/>
         <TextView
 
             android:id="@+id/name"
