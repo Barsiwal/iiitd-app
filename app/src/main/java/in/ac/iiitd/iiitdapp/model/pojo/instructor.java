@@ -1,4 +1,4 @@
-package in.ac.iiitd.iiitdapp.pojo;
+package in.ac.iiitd.iiitdapp.model.pojo;
 public class instructor {
     public String ImageUrl;
     public String name;

@@ -1,9 +1,9 @@
-package in.ac.iiitd.iiitdapp;
+package in.ac.iiitd.iiitdapp.model;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import in.ac.iiitd.iiitdapp.pojo.instructor;
+import in.ac.iiitd.iiitdapp.model.pojo.instructor;
 
 /**
  * Created by karan barsiwal on 27-01-2016.

@@ -1,4 +1,4 @@
-package in.ac.iiitd.iiitdapp;
+package in.ac.iiitd.iiitdapp.views;
 
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
@@ -13,6 +13,8 @@ import android.view.MenuItem;
 
 import com.facebook.drawee.backends.pipeline.Fresco;
 
+import in.ac.iiitd.iiitdapp.R;
+
 public class HomePage extends AppCompatActivity {
     private SectionsPagerAdapter mSectionsPagerAdapter;
 
@@ -25,7 +27,7 @@ public class HomePage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_page);
-        Fresco.initialize(this);
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         // Create the adapter that will return a fragment for each of the three
