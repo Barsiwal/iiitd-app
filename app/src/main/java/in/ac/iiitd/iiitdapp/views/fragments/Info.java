@@ -1,4 +1,4 @@
-package in.ac.iiitd.iiitdapp.views;
+package in.ac.iiitd.iiitdapp.views.fragments;
 
 import android.net.Uri;
 import android.os.Bundle;
@@ -13,30 +13,21 @@ import in.ac.iiitd.iiitdapp.R;
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link About.OnFragmentInteractionListener} interface
+ * {@link Info.OnFragmentInteractionListener} interface
  * to handle interaction events.
- * Use the {@link About#newInstance} factory method to
+ * Use the {@link Info#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class About extends Fragment {
+public class Info extends Fragment {
 
     private OnFragmentInteractionListener mListener;
 
-    public About() {
+    public Info() {
         // Required empty public constructor
     }
-
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment About.
-     */
     // TODO: Rename and change types and number of parameters
-    public static About newInstance(String param1, String param2) {
-        About fragment = new About();
+    public static Info newInstance() {
+        Info fragment = new Info();
 
         return fragment;
     }
@@ -52,7 +43,7 @@ public class About extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_about, container, false);
+        return inflater.inflate(R.layout.fragment_info, container, false);
     }
 
     // TODO: Rename method, update argument and hook method into UI event

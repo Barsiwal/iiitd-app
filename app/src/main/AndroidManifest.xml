@@ -11,17 +11,38 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".views.HomePage"
+            android:name=".views.FtoA"
             android:label="@string/title_activity_home_page"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".views.SplashScreen"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".views.HomeScreen"
+            android:label="@string/title_activity_home_screen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".views.tabbed.Research"
+            android:label="@string/title_activity_research"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".views.tabbed.People"
+            android:label="@string/title_activity_people"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".views.tabbed.About"
+            android:label="@string/title_activity_about"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".views.tabbed.Events"
+            android:label="@string/title_activity_events"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

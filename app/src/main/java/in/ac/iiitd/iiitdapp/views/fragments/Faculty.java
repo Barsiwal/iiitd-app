@@ -1,4 +1,4 @@
-package in.ac.iiitd.iiitdapp.views;
+package in.ac.iiitd.iiitdapp.views.fragments;
 
 import android.net.Uri;
 import android.os.Bundle;
@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import in.ac.iiitd.iiitdapp.R;
+import in.ac.iiitd.iiitdapp.views.FacultyAdapter;
 
 public class Faculty extends Fragment {
 
