@@ -1,0 +1,67 @@
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fitsSystemWindows="true">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".views.fragments.Ug_publications">
+
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:padding="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Undergraduate Publications"
+        android:textSize="22sp"
+        android:textColor="#000000"
+        android:background="#38afa9"
+        />
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:padding="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IIIT-Delhi has created a enthralling research atmosphere that motivates the Undergraduate students to engage in research along with the PhD students and faculties alike. BTech students are encouraged to engage in research through options like Indepedent Study, Undergraduate Research, Independent project, BTech Project (Research), as well as by doing research based internships. They are also encouraged to publish in international forums. Listed below are some of the prominent publications which have BTech students as one of the authors.\n"
+        android:textSize="16sp"
+        android:textColor="#000000"
+
+        />
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2015"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:textColor="#000000"
+
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/ug"
+        android:fitsSystemWindows="true"
+        />
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\n\n"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:textColor="#000000"
+
+        />
+
+
+</LinearLayout>
+</ScrollView>

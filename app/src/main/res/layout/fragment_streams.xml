@@ -1,0 +1,121 @@
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fitsSystemWindows="true">
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    tools:context="in.ac.iiitd.iiitdapp.views.fragments.streams">
+
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:padding="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Programs Offered"
+        android:textSize="24dp"
+        android:textColor="#000000"
+        android:background="#38afa9"
+        />
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:padding="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BTech\nMtech\nPhD"
+        android:textSize="16dp"
+        android:textColor="#000000"
+
+        />
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:padding="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Streams"
+        android:textSize="24dp"
+        android:textColor="#000000"
+        android:background="#38afa9"
+        />
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:padding="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CSE\nECE\nComputational Biology"
+        android:textSize="16dp"
+        android:textColor="#000000"
+
+        />
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:padding="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Training and Placement"
+        android:textSize="24dp"
+        android:textColor="#000000"
+        android:background="#38afa9"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="180dp"
+        android:src="@drawable/pl_stats"
+        android:fitsSystemWindows="true"
+        />
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:padding="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/placestats"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:padding="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Companies"
+        android:textSize="24dp"
+        android:textColor="#000000"
+        android:background="#38afa9"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="320dp"
+        android:src="@drawable/companies"
+        android:fitsSystemWindows="true"
+        />
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:padding="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\n\n"
+        android:textSize="24dp"
+
+        />
+</LinearLayout>
+
+</ScrollView>

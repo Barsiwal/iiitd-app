@@ -22,6 +22,8 @@ import android.widget.TextView;
 import in.ac.iiitd.iiitdapp.R;
 import in.ac.iiitd.iiitdapp.views.fragments.Page1;
 import in.ac.iiitd.iiitdapp.views.fragments.Page2;
+import in.ac.iiitd.iiitdapp.views.fragments.Research_at_iiitd;
+import in.ac.iiitd.iiitdapp.views.fragments.Ug_publications;
 
 public class Research extends AppCompatActivity {
 
@@ -132,11 +134,11 @@ public class Research extends AppCompatActivity {
         public Fragment getItem(int position) {
             switch (position) {
                 case 0:
-                    Page1 p1 = Page1.newInstance();
-                    return p1;
+                    Research_at_iiitd r1 = Research_at_iiitd.newInstance();
+                    return r1;
                 case 1:
-                    Page2 p2 = Page2.newInstance();
-                    return p2;
+                    Ug_publications r2 = Ug_publications.newInstance();
+                    return r2;
             }
             return null;
         }
@@ -151,9 +153,9 @@ public class Research extends AppCompatActivity {
         public CharSequence getPageTitle(int position) {
             switch (position) {
                 case 0:
-                    return "SECTION 1";
+                    return "RESEARCH AT IIITD";
                 case 1:
-                    return "SECTION 2";
+                    return "PUBLICATIONS";
             }
             return null;
         }
