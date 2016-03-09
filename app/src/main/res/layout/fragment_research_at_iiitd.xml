@@ -1,0 +1,144 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent"
+    android:fitsSystemWindows="true"
+    >
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginBottom="10dp"
+    tools:context="in.ac.iiitd.iiitdapp.views.fragments.Research_at_iiitd">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:padding="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Research Centres"
+        android:textSize="24dp"
+        android:textColor="#000000"
+        android:background="#38afa9"
+        />
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:padding="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1.Cybersecurity and Research Centre"
+        android:textSize="16dp"
+        android:textColor="#000000"
+
+        />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   Website:  cerc.iiitd.ac.in"
+        android:autoLink="web"
+        android:textSize="16dp"
+        android:textColorLink="#0B0080"
+
+        />
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:padding="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2.Centre for Computational Biology"
+        android:textSize="16dp"
+        android:textColor="#000000"
+
+        />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   Website:  http://ccb.iiitd.ac.in"
+        android:autoLink="web"
+        android:textSize="16dp"
+        android:textColorLink="#0B0080"
+
+        />
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:padding="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Research Groups"
+        android:textSize="24dp"
+        android:textColor="#000000"
+        android:background="#38afa9"
+        />
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:padding="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Image Analysis and Biometrics"
+        android:textSize="16dp"
+        android:textColor="#000000"
+
+        />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   Website:  http://iab-rubric.org"
+        android:autoLink="web"
+        android:textSize="16dp"
+        android:textColorLink="#0B0080"
+
+        />
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:padding="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. Cryptology Research Group"
+        android:textSize="16dp"
+        android:textColor="#000000"
+
+        />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   Website:  http://crypto.iiitd.edu.in"
+        android:autoLink="web"
+        android:textSize="16dp"
+        android:textColorLink="#0B0080"
+
+        />
+
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:padding="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Research Areas"
+        android:textSize="24dp"
+        android:textColor="#000000"
+        android:background="#38afa9"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:src="@drawable/r_areas"
+        />
+
+</LinearLayout>
+</ScrollView>

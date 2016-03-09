@@ -14,4 +14,5 @@
     <string name="title_activity_people">People</string>
     <string name="title_activity_about">About</string>
     <string name="title_activity_events">Events</string>
+    <string name="placestats">Stats 2015\n\nBatches Graduating in 2015:\nB.Tech(CSE),M.Tech(CSE),M.Tech(ECE)\n\nStudents registered for placement: 190\nNumber of companies visited: 80(25 A+ and 55 A)\nTotal Offers: 228 (201 FT + 27 Intern)\nFull time(A+ Offers): 53 (CTC => 10 lakhs)\nFull time(A Offers): 148 (5 lacs &lt; CTC &lt; 10 lacs)\nIndian offers: 228\n\nHighest salary (Indian): 31 lacs for BTech and 25 Lacs for MTech\nAverage BTech Package: 9.89 lacs\nAverage MTech(CSE) Package: 8.8 lacs\nOverall Average salary:  9.33 lacs (and 75% of the students got offers of > Rs 6L pa)\nPercentage % : BTech  98% MTech CSE 91% </string>
 </resources>
