@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import in.ac.iiitd.iiitdapp.R;
+import in.ac.iiitd.iiitdapp.views.AdminAdapter;
 import in.ac.iiitd.iiitdapp.views.FacultyAdapter;
 
 /**
@@ -29,8 +30,8 @@ public class Adminstration extends Fragment {
     public Adminstration() {
         // Required empty public constructor
     }
-    public static Faculty newInstance() {
-        Faculty fragment = new Faculty();
+    public static Adminstration newInstance() {
+        Adminstration fragment = new Adminstration();
         return fragment;
     }
     @Override
@@ -41,10 +42,10 @@ public class Adminstration extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_adminstration, container, false);
-        recyclerView = (RecyclerView) view.findViewById(R.id.recycler_view);
+        recyclerView = (RecyclerView) view.findViewById(R.id.recycler_view2);
         mLayoutmanager = new LinearLayoutManager(getActivity());
         recyclerView.setLayoutManager(mLayoutmanager);
-        mAdapter = new FacultyAdapter(this.getContext());
+        mAdapter = new AdminAdapter(this.getContext());
         recyclerView.setAdapter(mAdapter);
         return view;
     }

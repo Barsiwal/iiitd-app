@@ -20,6 +20,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import in.ac.iiitd.iiitdapp.R;
+import in.ac.iiitd.iiitdapp.views.fragments.Adminstration;
 import in.ac.iiitd.iiitdapp.views.fragments.Faculty;
 import in.ac.iiitd.iiitdapp.views.fragments.Page2;
 
@@ -135,8 +136,8 @@ public class People extends AppCompatActivity {
                     Faculty p1 = Faculty.newInstance();
                     return p1;
                 case 1:
-                    Page2 p2 = Page2.newInstance();
-                    return p2;
+                    Adminstration a2 = Adminstration.newInstance();
+                    return a2;
             }
             return null;
         }
@@ -151,9 +152,9 @@ public class People extends AppCompatActivity {
         public CharSequence getPageTitle(int position) {
             switch (position) {
                 case 0:
-                    return "Faculty";
+                    return "FACULTY";
                 case 1:
-                    return "SECTION 2";
+                    return "ADMINISTRATION";
             }
             return null;
         }
