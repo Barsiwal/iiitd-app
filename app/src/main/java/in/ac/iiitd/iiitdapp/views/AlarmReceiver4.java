@@ -9,13 +9,13 @@ import android.widget.Toast;
 import br.com.goncalves.pugnotification.notification.PugNotification;
 import in.ac.iiitd.iiitdapp.R;
 
-public class AlarmReceiver extends BroadcastReceiver {
+public class AlarmReceiver4 extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
         PugNotification.with(context)
                 .load()
-                .title("You Have a Class")
-                .message("PCSMA Lecture")
+                .title("Title")
+                .message("message")
                 .bigTextStyle("bigtext")
                 .smallIcon(R.drawable.logo)
                 .largeIcon(R.drawable.n)

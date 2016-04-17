@@ -30,6 +30,9 @@ public class HomeScreen extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
     FancyButton research, people, events, about;
     private PendingIntent pendingIntent;
+    private PendingIntent pendingIntent2;
+    private PendingIntent pendingIntent3;
+    private PendingIntent pendingIntent4;
     private Context mContext;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,12 +47,76 @@ public class HomeScreen extends AppCompatActivity
 
         Calendar calendar = Calendar.getInstance();
         calendar.setTimeInMillis(System.currentTimeMillis());
-        calendar.set(Calendar.HOUR_OF_DAY, 20);
-        calendar.set(Calendar.MINUTE, 53);
+        calendar.set(Calendar.DAY_OF_WEEK, Calendar.TUESDAY );
+        calendar.set(Calendar.HOUR_OF_DAY, 14);
+        calendar.set(Calendar.MINUTE, 30);
 
         /* Repeating on every 1 minutes interval */
         manager.setRepeating(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis(),
-                1000 * 60 * 1, pendingIntent);
+                1000 * 60 * 60*24*7, pendingIntent);
+
+
+
+
+
+
+
+        Intent alarmIntent2 = new Intent(HomeScreen.this, AlarmReceiver2.class);
+        pendingIntent2 = PendingIntent.getBroadcast(HomeScreen.this, 0, alarmIntent, 0);
+        AlarmManager manager2 = (AlarmManager) getSystemService(Context.ALARM_SERVICE);
+        int interval2 = 1000 * 60 * 20;
+
+        /*START ALARM*/
+
+        Calendar calendar2 = Calendar.getInstance();
+        calendar2.setTimeInMillis(System.currentTimeMillis());
+        calendar2.set(Calendar.DAY_OF_WEEK, Calendar.THURSDAY);
+        calendar2.set(Calendar.HOUR_OF_DAY, 14);
+        calendar2.set(Calendar.MINUTE, 30);
+
+        /* Repeating on every 1 minutes interval */
+        manager2.setRepeating(AlarmManager.RTC_WAKEUP, calendar2.getTimeInMillis(),
+                1000 * 60 * 60*24*7, pendingIntent2);
+
+
+
+
+
+        Intent alarmIntent3 = new Intent(HomeScreen.this, AlarmReceiver3.class);
+        pendingIntent3 = PendingIntent.getBroadcast(HomeScreen.this, 0, alarmIntent, 0);
+        AlarmManager manager3 = (AlarmManager) getSystemService(Context.ALARM_SERVICE);
+        int interval3 = 1000 * 60 * 20;
+
+        /*START ALARM*/
+
+        Calendar calendar3 = Calendar.getInstance();
+        calendar3.setTimeInMillis(System.currentTimeMillis());
+        calendar3.set(Calendar.HOUR_OF_DAY, 20);
+        calendar3.set(Calendar.MINUTE, 53);
+
+        /* Repeating on every 1 minutes interval */
+        manager3.setRepeating(AlarmManager.RTC_WAKEUP, calendar3.getTimeInMillis(),
+                1000 * 60 * 5, pendingIntent3);
+
+
+
+
+
+//        Intent alarmIntent4 = new Intent(HomeScreen.this, AlarmReceiver4.class);
+//        pendingIntent4 = PendingIntent.getBroadcast(HomeScreen.this, 0, alarmIntent, 0);
+//        AlarmManager manager4 = (AlarmManager) getSystemService(Context.ALARM_SERVICE);
+//        int interval4 = 1000 * 60 * 20;
+//
+//        /*START ALARM*/
+//
+//        Calendar calendar4 = Calendar.getInstance();
+//        calendar4.setTimeInMillis(System.currentTimeMillis());
+//        calendar4.set(Calendar.HOUR_OF_DAY, 20);
+//        calendar4.set(Calendar.MINUTE, 53);
+//
+//        /* Repeating on every 1 minutes interval */
+//        manager4.setRepeating(AlarmManager.RTC_WAKEUP, calendar4.getTimeInMillis(),
+//                1000 * 60 * 60*24*7, pendingIntent4);
 
 
 

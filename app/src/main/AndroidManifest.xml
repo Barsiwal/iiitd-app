@@ -51,6 +51,24 @@
             </intent-filter>
         </receiver>
 
+        <receiver android:name=".views.AlarmReceiver2">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name=".views.AlarmReceiver3">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name=".views.AlarmReceiver4">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
         <!-- Will not be called unless the application explicitly enables it -->
         <receiver
             android:name=".views.Alarm"

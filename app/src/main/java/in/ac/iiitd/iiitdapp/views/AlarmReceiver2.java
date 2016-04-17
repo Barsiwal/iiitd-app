@@ -9,7 +9,7 @@ import android.widget.Toast;
 import br.com.goncalves.pugnotification.notification.PugNotification;
 import in.ac.iiitd.iiitdapp.R;
 
-public class AlarmReceiver extends BroadcastReceiver {
+public class AlarmReceiver2 extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
         PugNotification.with(context)
